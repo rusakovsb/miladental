@@ -326,14 +326,14 @@ body.toolbar-horizontal #header {
     display: inline-block;
 }
 
-.menu--main a {
+.menu--main  ul.menu li a {
     position: relative;
     display: block; 
     padding: 7px 0;  
     font-size: 20px;  
 }
 
-.menu--main a:after {
+.menu--main ul.menu li a:after {
     content: "";
     display: block; 
     width: 0;
@@ -344,7 +344,7 @@ body.toolbar-horizontal #header {
     transition: 0.2s linear;
 }
 
-.menu--main a:hover:after {
+.menu--main ul.menu li a:hover:after {
     width: 100%;
 }
 
