@@ -1,0 +1,286 @@
+/*-------------------------------------------*
+/* Slider
+/*-------------------------------------------*/
+
+.view-homepage-slider li {
+	overflow: hidden;
+}
+
+.view-homepage-slider li img {
+    transition: 10s linear;
+    transform: scale(1.1);
+    will-change: transform;
+}
+
+.view-homepage-slider li.flex-active-slide img {
+    transform: scale(1);
+}
+
+/*-------------------------------------------*
+/* Promo
+/*-------------------------------------------*/
+
+.view-promo-block .promo {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.promo__image {
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%; 
+    max-width: 50%;		
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.promo__text {
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%; 
+    max-width: 50%;
+    padding: 40px;
+}
+
+.promo__text-inner {    
+    position: relative;
+    margin: 0 0 0 -80px;
+    padding: 40px;
+}
+
+/*-------------------------------------------*
+/* Services Buttons
+/*-------------------------------------------*/
+
+.view-services-buttons .view-content {
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.services-button {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%; 
+    max-width: 33.333333%;	
+	padding: 40px;
+}
+
+.services-button__text {
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;	
+	padding: 0 0 0 20px;
+}
+
+.services-button__icon {
+	padding: 5px 0 0 0;
+}
+
+.services-button__icon svg {
+	display: block;
+	width: 50px;
+	height: 60px;
+}
+
+.services-button path,
+.services-button polygon,
+.services-button line,
+.services-button polyline,
+.services-button circle,
+.services-button rect {
+	transition: 0.2s linear;
+}
+
+/*-------------------------------------------*
+/* Services
+/*-------------------------------------------*/
+
+.view-services-block .services-item {
+    padding: 0 0 20px 0;	
+}
+
+.view-services-block .services-item__image {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.view-services-block .services-item-1 .services-item__image,
+.view-services-block .services-item-4 .services-item__image,
+.view-services-block .services-item-5 .services-item__image {
+    padding-top: 100%;
+}
+
+.view-services-block .services-item-2 .services-item__image,
+.view-services-block .services-item-3 .services-item__image,
+.view-services-block .services-item-6 .services-item__image {
+    padding-top: 70%;
+}
+
+.services-item__title {
+    position: relative;
+    padding: 20px 10px;
+    margin: -40px 20px 0 20px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.services-item__description {	
+	font-size: 20px;
+	font-style: italic;
+}
+
+/*-------------------------------------------*
+/* Banner
+/*-------------------------------------------*/
+
+.banner {
+    position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.banner__overlay {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.banner__body p {
+	font-size: 22px;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.banner__body p span {
+    display: block;
+}
+
+/*-------------------------------------------*
+/* Doctors
+/*-------------------------------------------*/
+
+.doctor__title {
+	position: relative;
+	padding: 20px 10px;
+	margin: -40px 20px 0 20px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.doctor__name {
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.doctor__position {
+	font-style: italic;
+}
+
+.view-footer {
+	margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/*-------------------------------------------*
+/* Service Accordion
+/*-------------------------------------------*/
+
+.accordion-item {
+	margin: 0 0 20px 0;
+    border: 1px solid #f2f2f2;
+}
+
+.accordion-item:last-child {
+	margin: 0;
+}
+
+.accordion-item__head {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 20px;
+	cursor: pointer;
+}
+
+.accordion-item__icon {
+	display: block;
+	min-width: 20px;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	background-position: 50% 50%;
+	background-image: url(../images/plus.svg);
+	opacity: 0.5;
+	transform: rotate(0deg);
+	transition: 0.2s linear;
+}
+
+.accordion-item.expanded .accordion-item__icon {
+    transform: rotate(45deg);
+}
+
+.accordion-item__title {
+	padding: 0 10px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordion-item__body {
+    display: none;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/*-------------------------------------------*
+/* Prices
+/*-------------------------------------------*/
+
+.price {
+    margin: 0 0 40px 0;
+}
+
+/*-------------------------------------------*
+/* Carousel
+/*-------------------------------------------*/
+
+.owl-nav {
+	text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.owl-carousel .owl-nav button {
+	text-indent: -9999px;
+    margin: 0 8px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	transition: 0.2s linear;
+}
+
+/*-------------------------------------------*
+/* Photoswipe
+/*-------------------------------------------*/
+
+.pswp__bg {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

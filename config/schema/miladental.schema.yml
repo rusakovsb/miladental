@@ -1,0 +1,5 @@
+# Schema for the configuration files.
+
+miladental.settings:
+  type: miladental_settings
+  label: 'Miladental settings'

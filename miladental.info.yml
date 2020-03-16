@@ -1,0 +1,28 @@
+name: Miladental
+type: theme
+description: 'Miladental theme'
+package: Core
+
+libraries:
+  - miladental/global-styling
+
+regions:
+  header: 'Header'
+  slider: 'Slider'
+  featured: 'Featured'
+  highlighted: 'Highlighted'
+  sidebar_first: 'Sidebar First'
+  content: 'Content'
+  sidebar_second: 'Sidebar Second'
+  content_bottom: 'Content Bottom'
+  pre_footer: 'Pre Footer'  
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  mobile_panel: 'Mobile Panel'
+  popup: 'Popup'
+
+# Information
+core: '8.x'
+project: 'drupal'
+

@@ -1,0 +1,19 @@
+global-styling:
+  css:
+    theme:
+      css/main.css: {} 
+      css/grid.css: {}      
+      css/views.css: {}
+      css/mobilepanel.css: {}
+      css/colors.css: {}
+      css/owlcarousel.css: {}
+      css/responsive.css: {}
+  js:
+    js/imagesloaded.js: {} 
+    js/owlcarousel.js: {} 
+    js/tweenmax.js: {}
+    js/mobilepanel.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

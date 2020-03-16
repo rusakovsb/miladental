@@ -1,0 +1,225 @@
+/*-------------------------------------------*
+/* Colors
+/*-------------------------------------------*/
+
+#overlay {
+    background: #fff;
+}
+
+body {
+    background: #fff;
+	color: #333333;
+}
+
+.node__content ul li:before,
+.landline:before,
+.promo__text,
+.block-title span:before,
+.block-title span:after,
+.button,
+#header.sticky .menu--main a:after {
+    background-color: #67b534;
+}
+
+a,
+#header.sticky,
+#header.sticky a,
+.doctor__title a:hover,
+.view-services-block a:hover,
+.view-services-page a:hover  {
+    color: #333333;
+}
+
+a:hover,
+#header.sticky a.is-active,
+#block-mobile-menu a.is-active {
+    color: #67b534;
+}
+
+#header {
+    background: transparent;	
+	color: #fff;
+	box-shadow: none;
+}
+
+#header #logo path {
+	fill: #fff;
+}
+
+#header {
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+}
+
+#header a {
+	color: #fff;
+}
+
+#header #menu-icon span {
+	background: #fff;
+}
+
+#header.sticky {
+	background: #fff;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+}
+
+#header.sticky #logo path {
+	fill: #67b534;
+}
+
+#header.sticky {
+    text-shadow: none;
+}
+
+#header.sticky #menu-icon span,
+#menu-close-icon span {
+	background: #000;
+}
+
+#header .menu--main a:after {
+	background: #fff;
+}
+
+#block-slider-caption {
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+}
+
+.promo__text-inner,
+.doctor__title,
+.services-item__title {
+    background: #fff;
+}
+
+#featured {
+    background: rgba(0,0,0,0.1);
+}
+
+.view-page-image img {
+	box-shadow: -40px 40px 0px 0px rgba(0,0,0,0.1);
+}
+
+textarea,
+select,
+input.form-text,
+input.form-email {
+    border: 2px solid #e5e5e5;
+}
+
+textarea:focus,
+select:focus,
+input.form-text:focus,
+input.form-email:focus {
+    border: 2px solid #70c438;
+}
+
+.button {
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #70c438;
+    color: #fff;
+}
+
+.view-services-buttons .services-button {
+    background: #fff;
+}
+
+.view-services-buttons .services-button:hover {
+    background: #67b534;
+	color: #fff;
+}
+
+.services-button__description,
+.services-item__description {
+	opacity: 0.7;
+}
+
+#preloader path,
+.services-button path,
+.services-button polygon,
+.services-button line,
+.services-button polyline,
+.services-button circle,
+.services-button rect {
+	fill: none;
+	stroke: #67b534;
+	stroke-width: 3px;
+}
+
+.services-button:hover path,
+.services-button:hover polygon,
+.services-button:hover line,
+.services-button:hover polyline,
+.services-button:hover circle,
+.services-button:hover rect {
+    stroke: #fff;
+}
+
+.field--name-field-doctor-position,
+.doctor__position,
+label.form-required:after {
+	color: #67b534;
+}
+
+.banner__overlay {
+    background: rgba(36,36,36,0.85);
+	color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	background: #67b534 url(../images/prev.svg) 50% 50% / 20px 20px no-repeat !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	background:  #67b534 url(../images/next.svg) 50% 50% / 20px 20px no-repeat !important;
+}
+
+ul.tabs {
+	background: #efefef;
+    border-bottom: 3px solid #67b534;	
+}
+
+#menu-icon span {
+	background: #fff;
+}
+
+#mobile-panel {
+    background: #fff;
+}
+
+.menu--mobile a {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#footer-first,
+.accordion-item__head {
+    background:rgba(0,0,0,0.05);
+}
+
+#footer-third {
+	background:rgba(0,0,0,0.2);
+}
+
+#footer-third,
+#footer-third a {
+    color: rgba(0,0,0,0.5)
+}
+
+#footer-third a:hover {
+    color: rgba(0,0,0,1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
