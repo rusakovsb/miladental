@@ -78,6 +78,10 @@ p {
     margin: 0 0 40px 0;
 }
 
+p:last-child {
+    margin: 0;
+}
+
 em {
     font-style: italic;
 }
@@ -352,7 +356,13 @@ body.toolbar-horizontal #header {
 /* Headings
 /*-------------------------------------------*/
 
-h1, h2, h3, h4, h5, h6, .block-title {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.block-title {
     font-weight: bold;
 }
 
@@ -453,10 +463,6 @@ ul.tabs li a {
 
 .node__content {    
     line-height: 1.5;
-}
-
-p:last-child {
-    margin: 0;
 }
 
 .node__content ul {
