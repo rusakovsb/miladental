@@ -645,71 +645,73 @@ button {
 }
 
 /*-------------------------------------------*
-/* Contacts
+/* Phones
 /*-------------------------------------------*/
 
-.social-icon {
-    display: inline-block;
-    margin: 0 7px;
-}
-
-.contacts-item {
+.phone {
     margin: 5px 0;
     font-size: 20px;
 }
 
-.mobile-contacts-item {
-    margin: 10px 0;
+#header .phone,
+.phone__icons,
+.phone a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.mobile-contacts-item a {
+.phone a .phone__number {
     text-decoration: underline;
 }
 
-.contacts-item:before,
-.mobile-contacts-item:before {
-	content: "";
+.phone__icons {
+    -ms-flex: 0 0 85px;
+    flex: 0 0 85px;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-width: 85px;
+    padding: 0 10px 0 0;
+}
+
+.phone__icon {
     display: inline-block;
     width: 20px;
     height: 20px; 
-    margin: 0 10px 0 0;
-    vertical-align: -3px;
+    margin: 0 5px 0 0;
     background-size: contain;    
     background-repeat: no-repeat;
 }
 
-.a1:before {
+.a1 {
     background-image: url(../images/a1.png);
 }
 
-.mts:before {
+.mts {
     background-image: url(../images/mts.svg);
 }
 
-.landline:before {
+.landline {
     background-image: url(../images/phone.svg);
 	background-size: 15px 15px;
 	background-position: 50% 50%;
 }
 
-.viber:before {
+.viber {
     background-image: url(../images/viber.svg);
 }
 
-.skype:before {
+.skype {
     background-image: url(../images/skype.svg);
 }
 
-.whatsapp:before {
+.whatsapp {
     background-image: url(../images/whatsapp.svg);
 }
 
-.telegram:before {
+.telegram {
     background-image: url(../images/telegram.svg);
-}
-
-.mobile-contacts-item {
-    font-size: 22px;
 }
 
 /*-------------------------------------------*

@@ -128,7 +128,6 @@
 
 .services-item__description {	
 	font-size: 20px;
-	font-style: italic;
 }
 
 /*-------------------------------------------*
@@ -150,7 +149,6 @@
 .banner__body p {
 	font-size: 22px;
 	line-height: 1.5;
-	font-style: italic;
 }
 
 .banner__body p span {
@@ -174,10 +172,6 @@
 	font-size: 22px;
 	font-weight: bold;
     margin: 0 0 10px 0;
-}
-
-.doctor__position {
-	font-style: italic;
 }
 
 .view-footer {

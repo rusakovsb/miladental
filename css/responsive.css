@@ -218,7 +218,7 @@ body {
 
 .layout-one-sidebar #main,
 .layout-two-sidebars #main,
-.sidebar,
+.layout-one-sidebar .sidebar,
 .view-services-block .services-item {
     -ms-flex: 1 1 100%;
     flex: 1 1 100%; 
