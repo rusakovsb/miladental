@@ -64,17 +64,11 @@ body {
 	height: 50px;  
 }
 
-.services-button {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
 #featured {
 	padding: 0 0 20px 0;
 }
 
-.services-button,
+.grid.no-gaps .grid-item.services-button,
 .promo__text {
     padding: 20px;
 }
@@ -206,7 +200,6 @@ body {
     margin: -40px 0 0 0;
 }
 
-.view-services-buttons .view-content,
 .view-promo-block .promo,
 .view-services-block .view-content,
 .layout-one-sidebar #content-main,
@@ -262,12 +255,6 @@ p,
 .promo__title,
 .node__content ul {
     margin: 0 0 20px 0;
-}
-
-.services-button {
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
 }
 
 .services-button__icon {
