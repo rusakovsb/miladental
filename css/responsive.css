@@ -68,11 +68,11 @@ body {
 	padding: 0 0 20px 0;
 }
 
-.grid.no-gaps .grid-item.services-button,
-.promo__text {
-    padding: 20px;
+.view-services-buttons .services-button {
+    padding: 20px !important;
 }
 
+.promo__text,
 .promo__text-inner {    
     padding: 20px;
 }

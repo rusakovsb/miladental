@@ -189,6 +189,9 @@ body.toolbar-horizontal #header {
     display: flex;	
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.region-header {
 	-ms-flex-align: center;
     align-items: center;
 }
@@ -743,6 +746,12 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
 	background-color: #fff;
+}
+
+/* Banner*/
+
+#block-tibo2020 .field--name-body {
+    width: 150px;
 }
 
 

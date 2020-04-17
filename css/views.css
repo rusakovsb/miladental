@@ -51,13 +51,10 @@
 /* Services Buttons
 /*-------------------------------------------*/
 
-.services-button {
+.view-services-buttons .services-button {
 	display: -ms-flexbox;
     display: flex;
-}
-
-.grid.no-gaps .grid-item.services-button {
-    padding: 40px;
+    padding: 40px !important;
 }
 
 .services-button__text {
