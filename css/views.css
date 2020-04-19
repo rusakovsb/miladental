@@ -38,7 +38,11 @@
 	-ms-flex: 0 0 50%;
     flex: 0 0 50%; 
     max-width: 50%;
-    padding: 40px;
+	padding: 40px;
+}
+
+.promo__body {
+	line-height: 1.5;
 }
 
 .promo__text-inner {    
@@ -143,6 +147,19 @@
 
 .banner__body p span {
     display: block;
+}
+
+/*-------------------------------------------*
+/* Message
+/*-------------------------------------------*/
+
+.message {
+	padding: 40px;
+	border: 3px #67b534 solid;
+}
+
+.message__body {
+	line-height: 1.5;
 }
 
 /*-------------------------------------------*
