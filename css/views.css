@@ -155,11 +155,34 @@
 
 .message {
 	padding: 40px;
+	text-align: center;
 	border: 3px #67b534 solid;
+}
+
+.message__title {
+	margin: 0 0 30px 0;
+	font-size: 35px;
+	font-weight: bold;
 }
 
 .message__body {
 	line-height: 1.5;
+}
+
+.message p {
+	margin: 0 0 20px 0;
+}
+
+.message p:last-child {
+	margin: 0;
+}
+
+.message ul {
+	margin: 0 0 20px 0;
+}
+
+.message ul li {
+	margin: 0 0 5px 0;
 }
 
 /*-------------------------------------------*

@@ -13,7 +13,8 @@ h1 {
 }
 
 h2,
-.block-title {
+.block-title,
+.message__title {
     font-size: 30px;
 }
 
@@ -72,6 +73,7 @@ body {
     padding: 20px !important;
 }
 
+.message,
 .promo__text,
 .promo__text-inner {    
     padding: 20px;
@@ -209,6 +211,11 @@ body {
     flex-direction: column;
 }
 
+.region-footer-third {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .layout-one-sidebar #main,
 .layout-two-sidebars #main,
 .layout-one-sidebar .sidebar,
@@ -238,22 +245,23 @@ body {
 
 h1 {
 	font-size: 25px;
-    margin: 0 0 20px 0;
 }
 
 h2,
 .block-title {
 	font-size: 20px;
-    margin: 0 0 20px 0;
 }
 
 h3 {
 	font-size: 20px;
 }
 
-p,
+h1,
+h2,
+.block-title,
 .promo__title,
-.node__content ul {
+.node__content ul,
+p {
     margin: 0 0 20px 0;
 }
 
