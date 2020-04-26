@@ -230,8 +230,8 @@ body.toolbar-horizontal #header {
 	margin-top: -40px;
 }
  
-#content {
-    margin: 80px 0 0 0;
+#main {
+    margin: 80px 0;
 } 
 
 .layout-one-sidebar #content-wrapper,
@@ -277,14 +277,10 @@ body.toolbar-horizontal #header {
     margin: 0 0 40px 0;
 }
 
-#content .block,
+#content-bottom .block,
 #footer-first .block,
 #footer-second .block {
     margin: 0 0 80px 0;
-}
-
-#content #block-page-title {
-    margin: 0;
 }
 
 #footer-first {
@@ -371,14 +367,13 @@ h6,
 
 h1 {
     margin: 0 0 40px 0;
-    font-size: 40px;    
+    font-size: 45px;    
     text-align: center;
 }
 
 h2 {
     margin: 0 0 30px 0;
-    font-size: 35px;
-    
+    font-size: 40px;    
 }
 
 h3 {
@@ -388,8 +383,7 @@ h3 {
 
 h4 {
     margin: 0 0 10px 0;
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 
 h5 {
@@ -404,20 +398,20 @@ h6 {
 
 .block-title {
     margin: 0 0 40px 0;
-    font-size: 35px;    
+    font-size: 40px;    
 }
 
-#content .block-title,
+#content-bottom .block-title,
 #footer .block-title {
     text-align: center;
 }
 
-#content .block-title span,
+#content-bottom .block-title span,
 #footer .block-title span {
     position: relative;
 }
 
-#content .block-title span:before,
+#content-bottom .block-title span:before,
 #footer .block-title span:before {
     content: "";
     display: block;
@@ -428,7 +422,7 @@ h6 {
     left: -60px;
 }
 
-#content .block-title span:after,
+#content-bottom .block-title span:after,
 #footer .block-title span:after {
     content: "";
     display: block;
@@ -726,10 +720,8 @@ button {
 
 table {
     border-collapse: collapse;
-    border: none;
     border-spacing: 0;
     width: 100%;
-    margin: 20px 0;
 }
 
 thead {

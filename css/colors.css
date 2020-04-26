@@ -164,6 +164,10 @@ label.form-required:after {
 	color: #67b534;
 }
 
+.message {
+	border: 3px solid #67b534;
+}
+
 .banner__overlay {
     background: rgba(36,36,36,0.85);
 	color: #fff;
@@ -211,6 +215,8 @@ ul.tabs {
 #footer-third a:hover {
     color: rgba(0,0,0,1)
 }
+
+
 
 
 

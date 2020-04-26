@@ -88,8 +88,8 @@ body {
 	font-size: 17px;
 }
 
-#content {
-    margin: 40px 0 0 0;
+#main {
+    margin: 40px 0;
 }
 
 #sidebar-first {
@@ -105,7 +105,8 @@ body {
     margin: 0 0 20px 0;
 }
 
-#content .block,
+
+#content-bottom .block,
 #footer-first .block,
 #footer-second .block {
     margin: 0 0 40px 0;
@@ -114,6 +115,11 @@ body {
 .button {
     font-size: 17px;
     padding: 15px 30px;
+}
+
+#footer-first, 
+#footer-second {
+    padding: 40px 0 0 0;
 }
 
 }
@@ -162,6 +168,10 @@ body {
 
 .view-services-block .services-item .services-item__image {
     padding-top: 100% !important;
+}
+
+.prices {
+	width: 100%;
 }
 
 }
@@ -225,9 +235,12 @@ body {
 	max-width: none;
 }
 
-#sidebar-first,
+#sidebar-first {
+    padding: 0 0 40px 0;
+}
+
 #sidebar-second {
-    padding: 0;
+    padding: 40px 0 0 0;
 }
 
 #block-homepage-title {
@@ -283,17 +296,6 @@ p {
 
 .view-carousel .doctor__name {
     font-size: 14px;
-}
-
-#footer-first,
-#footer-second {
-    padding: 40px 0 0 0;
-}
-
-#content .block, 
-#footer-first .block, 
-#footer-second .block {
-    margin: 0 0 40px 0;
 }
 
 #footer-third .block {

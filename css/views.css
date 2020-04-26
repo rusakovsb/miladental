@@ -156,7 +156,6 @@
 .message {
 	padding: 40px;
 	text-align: center;
-	border: 3px #67b534 solid;
 }
 
 .message__title {
@@ -266,8 +265,27 @@
 /* Prices
 /*-------------------------------------------*/
 
-.price {
-    margin: 0 0 40px 0;
+.view-service-prices {
+	margin: 40px 0 0 0;
+}
+
+.view-prices .view-content {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.prices {
+	width: 990px;
+    padding: 0 0 40px 0;
+}
+
+.prices__title {
+	margin: 0 0 20px 0;
+	text-align: center;
 }
 
 /*-------------------------------------------*
