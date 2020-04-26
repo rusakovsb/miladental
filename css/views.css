@@ -22,7 +22,9 @@
 
 .view-promo-block .promo {
     display: -ms-flexbox;
-    display: flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .promo__image {
@@ -90,8 +92,22 @@
 /* Services
 /*-------------------------------------------*/
 
+.view-services-block .view-content {
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;	
+	margin: 0 -10px;
+}
+
+.view-services-block .services-col {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+
 .view-services-block .services-item {
-    padding: 0 0 20px 0;	
+    padding: 0 10px 20px 10px;	
 }
 
 .view-services-block .services-item__image {
