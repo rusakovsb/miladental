@@ -285,17 +285,9 @@
 	margin: 40px 0 0 0;
 }
 
-.view-prices .view-content {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-.prices {
+.view-prices {
 	width: 990px;
+	margin: 0 auto;
     padding: 0 0 40px 0;
 }
 
