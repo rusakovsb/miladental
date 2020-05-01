@@ -60,7 +60,7 @@
 .view-services-buttons .services-button {
 	display: -ms-flexbox;
     display: flex;
-    padding: 40px !important;
+    padding: 40px;
 }
 
 .services-button__text {

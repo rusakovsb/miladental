@@ -70,7 +70,7 @@ body {
 }
 
 .view-services-buttons .services-button {
-    padding: 20px !important;
+    padding: 20px;
 }
 
 .message,
@@ -155,8 +155,10 @@ body {
     max-width: 50%;
 }
 
-.view-services-block .services-item .services-item__image {
-    padding-top: 100% !important;
+.view-services-block .services-item-2 .services-item__image,
+.view-services-block .services-item-3 .services-item__image,
+.view-services-block .services-item-6 .services-item__image {
+    padding-top: 100%;
 }
 
 .view-prices {
