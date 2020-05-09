@@ -57,6 +57,10 @@
 /* Services Buttons
 /*-------------------------------------------*/
 
+.view-services-buttons .view-content {
+	margin: 0;
+}
+
 .view-services-buttons .services-button {
 	display: -ms-flexbox;
     display: flex;
