@@ -140,18 +140,17 @@ body {
 }
 
 .view-services-block .services-col {
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: none;	
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;	
+	margin: 0 -10px;
 }
 
 .view-services-block .services-item {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
+    padding: 0 10px 20px 10px;
     max-width: 50%;
 }
 
@@ -212,8 +211,7 @@ body {
 
 .layout-one-sidebar #content,
 .layout-two-sidebars #content,
-.layout-one-sidebar .sidebar,
-.view-services-block .services-item {
+.layout-one-sidebar .sidebar {
     -ms-flex: 1 1 100%;
     flex: 1 1 100%; 
 	max-width: none;
@@ -270,6 +268,12 @@ p {
 
 .services-button h3 {
 	margin: 0 0 5px 0;
+}
+
+.view-services-block .services-item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: none;
 }
 
 .view-services-block .services-item-6 {

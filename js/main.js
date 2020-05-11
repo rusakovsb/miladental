@@ -20,9 +20,9 @@
         $(this).addClass("services-item-"+(i+1));
     });
  
-	$(".view-services-block .services-item-1, .view-services-block .services-item-2").once().wrapAll('<div class="services-col"></div>');		
-	$(".view-services-block .services-item-3, .view-services-block .services-item-4").once().wrapAll('<div class="services-col"></div>');
-	$(".view-services-block .services-item-5, .view-services-block .services-item-6").once().wrapAll('<div class="services-col"></div>');
+	$(".view-services-block .services-item-1, .view-services-block .services-item-2").once().wrapAll('<div class="grid-item services-col"></div>');		
+	$(".view-services-block .services-item-3, .view-services-block .services-item-4").once().wrapAll('<div class="grid-item services-col"></div>');
+	$(".view-services-block .services-item-5, .view-services-block .services-item-6").once().wrapAll('<div class="grid-item services-col"></div>');
 	
 	$(".services-col:nth-child(1)").addClass("services-col-1");	
 	$(".services-col:nth-child(2)").addClass("services-col-2");	

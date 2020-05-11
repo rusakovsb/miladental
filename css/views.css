@@ -96,14 +96,8 @@
 /* Services
 /*-------------------------------------------*/
 
-.view-services-block .services-col {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-	max-width: 33.333333%;
-}
-
 .view-services-block .services-item {
-    padding: 0 10px 20px 10px;	
+    padding: 0 0 20px 0;	
 }
 
 .view-services-block .services-item__image {
