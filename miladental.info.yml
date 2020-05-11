@@ -9,6 +9,7 @@ libraries:
 regions:
   header: 'Header'
   slider: 'Slider'
+  slider_overlay: 'Slider Overlay'
   featured: 'Featured'
   highlighted: 'Highlighted'
   page_title: 'Page Title' 

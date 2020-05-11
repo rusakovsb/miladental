@@ -117,7 +117,7 @@ a:focus {
 /* Preloader
 /*-------------------------------------------*/
 
-#overlay {
+#page-overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -196,26 +196,6 @@ body.toolbar-horizontal #header {
 
 #slider {
 	position: relative;
-}
-
-#block-slider-caption {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 97;
-    display: -ms-flexbox;
-    display: flex;	
-    -ms-flex-pack: center;
-    justify-content: center;
-	-ms-flex-align: center;
-    align-items: center;
-	text-align: center;
-}
-
-#site-name {
-	margin: 0 0 40px 0;
 }
 
 #featured {
@@ -311,7 +291,24 @@ body.toolbar-horizontal #header {
 	transition: 0.2s linear;
 }
 
+.region-slider-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 97;
+    display: -ms-flexbox;
+    display: flex;	
+    -ms-flex-pack: center;
+    justify-content: center;
+	-ms-flex-align: center;
+    align-items: center;
+	text-align: center;
+}
+
 #site-name {
+    margin: 0 0 40px 0;
     font-size: 35px;
     font-weight: bold;
 }

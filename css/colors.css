@@ -2,7 +2,7 @@
 /* Colors
 /*-------------------------------------------*/
 
-#overlay {
+#page-overlay {
     background: #fff;
 }
 
@@ -80,7 +80,7 @@ a:hover,
 	background: #fff;
 }
 
-#block-slider-caption {
+.region-slider-overlay {
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.7);

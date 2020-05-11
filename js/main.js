@@ -1,7 +1,7 @@
 (function ($) {
 
     $("#slider").imagesLoaded( function() {   
-  	    $("#overlay").delay(500).fadeOut("slow");   
+  	    $("#page-overlay").delay(500).fadeOut("slow");   
     });
 
     $(".promo__image, .banner").each(function() {

@@ -3,7 +3,7 @@
 /*-------------------------------------------*/
 
 @media all and (max-width: 1599px) {
-	
+
 .path-frontpage #site-name {
 	font-size: 40px;
 }
@@ -33,6 +33,27 @@ h5 {
 }
 
 /*-------------------------------------------*
+/* < 1400px
+/*-------------------------------------------*/
+
+@media all and (max-width: 1400px) {
+
+#header {
+    padding: 20px 0;
+}
+
+#site-name {
+    margin: 0 0 20px 0;
+}
+
+.path-frontpage #site-name,
+#site-name {
+	font-size: 30px;
+}
+
+}
+
+/*-------------------------------------------*
 /* < 1200px
 /*-------------------------------------------*/
 
@@ -46,20 +67,7 @@ body {
 #block-phones {
     display: none;
 }
-
-#header {
-    padding: 20px 0;  
-}
-        
-.path-frontpage #site-name,
-#site-name {
-	font-size: 30px;
-}
-
-#site-name {
-    margin: 0 0 20px 0;
-}
-
+    
 #logo {
     width: 170px; 
 	height: 50px;  
@@ -130,10 +138,6 @@ body {
 
 @media all and (max-width: 991px) {
 
-#slider #appointment-button {
-    display: none;
-}
-	
 .path-frontpage #site-name,
 #site-name {
 	font-size: 25px;
@@ -168,13 +172,12 @@ body {
 
 @media all and (max-width: 767px) {
 
-#site-name,
+#block-slider-caption,
 .view-carousel .doctor__position,
-#footer-second,
-.view-page-image .field-content:before {
+#block-map-image {
     display: none;
 }
-	
+
 #header.sticky {
     padding: 10px 0;
 }
@@ -219,19 +222,6 @@ body {
 
 #sidebar-second {
     padding: 40px 0 0 0;
-}
-
-#block-homepage-title {
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -ms-flex-align: end;
-    align-items: flex-end;
-}
-
-#block-slider-caption .field--name-body {
-    position: absolute;
-    top: -500px;
-    left: 0;
 }
 
 h1 {
@@ -334,3 +324,14 @@ th, td {
 
 }
 
+/*-------------------------------------------*
+/* 320
+/*-------------------------------------------*/
+
+@media all and (max-width: 320px) {
+
+#header {
+    padding: 15px 0;
+}
+
+}
