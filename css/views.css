@@ -276,9 +276,13 @@
 }
 
 .view-prices {
-	width: 990px;
+	max-width: 990px;
 	margin: 0 auto;
     padding: 0 0 40px 0;
+}
+
+.prices {
+	margin: 0 0 40px 0;
 }
 
 .prices__title {

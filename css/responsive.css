@@ -160,10 +160,6 @@ body {
     padding-top: 100%;
 }
 
-.view-prices {
-	width: 100%;
-}
-
 }
 
 /*-------------------------------------------*
@@ -276,7 +272,7 @@ p {
     max-width: none;
 }
 
-.view-services-block .services-item-6 {
+.view-services-block .services-item:last-child {
     padding: 0 10px;
 }
 
