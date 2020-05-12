@@ -96,6 +96,10 @@
 /* Services
 /*-------------------------------------------*/
 
+.view-services-block .services-col {
+    padding: 0 10px;
+}
+
 .view-services-block .services-item {
     padding: 0 0 20px 0;	
 }

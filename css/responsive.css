@@ -262,10 +262,6 @@ p {
     max-width: none;
 }
 
-.view-services-block .services-item:last-child {
-    padding: 0 10px;
-}
-
 .view-carousel .doctor__title {
     position: relative;
     padding: 10px;
