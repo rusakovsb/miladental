@@ -9,9 +9,9 @@ global-styling:
       css/owlcarousel.css: {}
       css/responsive.css: {}
   js:
-    js/imagesloaded.js: {} 
-    js/owlcarousel.js: {} 
-    js/tweenmax.js: {}
+    js/imagesloaded.pkgd.min.js: {} 
+    js/owl.carousel.min.js: {} 
+    js/gsap.min.js: {}
     js/mobilepanel.js: {}
     js/main.js: {}
   dependencies:
