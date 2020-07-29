@@ -12,6 +12,7 @@ body {
 }
 
 .node__content ul li:before,
+.promo__body ul li:before,
 .landline,
 .promo__text,
 .block-title span:before,
