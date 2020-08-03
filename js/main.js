@@ -4,7 +4,7 @@
   	    $("#page-overlay").delay(500).fadeOut("slow");   
     });
 
-    $(".promo__image, .banner").each(function() {
+    $(".promo__image, .view-services-block .services-item__image, .banner").each(function() {
         var imgUrl = $(this).attr('data-image-src');
         $(this).css('background-image', 'url('+imgUrl+')');      
     });  
@@ -26,12 +26,7 @@
 	
 	$(".services-col:nth-child(1)").addClass("services-col-1");	
 	$(".services-col:nth-child(2)").addClass("services-col-2");	
-	$(".services-col:nth-child(3)").addClass("services-col-3");	
-	
-	$(".view-services-block .services-item__image").each(function() {
-        var attr = $(this).attr('data-image-src');
-        $(this).css('background-image', 'url('+attr+')');      
-    });  
+	$(".services-col:nth-child(3)").addClass("services-col-3");
 
 	$(".region-popup").once().append('<button class="popup-close"></button>');	    
 	  
