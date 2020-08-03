@@ -119,7 +119,7 @@
 /* Services
 /*-------------------------------------------*/
 
-.view-services-block .services-col {
+.services-col {
     padding: 0 10px;
 }
 
@@ -127,22 +127,22 @@
     padding: 0 0 20px 0;	
 }
 
-.view-services-block .services-item__image {
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-
-.view-services-block .services-item-1 .services-item__image,
-.view-services-block .services-item-4 .services-item__image,
-.view-services-block .services-item-5 .services-item__image {
+.services-item-1 .services-item__image,
+.services-item-4 .services-item__image,
+.services-item-5 .services-item__image {
     padding-top: 100%;
 }
 
-.view-services-block .services-item-2 .services-item__image,
-.view-services-block .services-item-3 .services-item__image,
-.view-services-block .services-item-6 .services-item__image {
+.services-item-2 .services-item__image,
+.services-item-3 .services-item__image,
+.services-item-6 .services-item__image {
     padding-top: 70%;
+}
+
+.services-item__image {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
 
 .services-item__title {

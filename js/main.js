@@ -4,7 +4,7 @@
   	    $("#page-overlay").delay(500).fadeOut("slow");   
     });
 
-    $(".promo__image, .view-services-block .services-item__image, .banner").each(function() {
+    $(".promo__image, .services-item__image, .banner").each(function() {
         var imgUrl = $(this).attr('data-image-src');
         $(this).css('background-image', 'url('+imgUrl+')');      
     });  
@@ -20,9 +20,9 @@
         $(this).addClass("services-item-"+(i+1));
     });
  
-	$(".view-services-block .services-item-1, .view-services-block .services-item-2").once().wrapAll('<div class="grid-item services-col"></div>');		
-	$(".view-services-block .services-item-3, .view-services-block .services-item-4").once().wrapAll('<div class="grid-item services-col"></div>');
-	$(".view-services-block .services-item-5, .view-services-block .services-item-6").once().wrapAll('<div class="grid-item services-col"></div>');
+	$(".services-item-1, .services-item-2").once().wrapAll('<div class="grid-item services-col"></div>');		
+	$(".services-item-3, .services-item-4").once().wrapAll('<div class="grid-item services-col"></div>');
+	$(".services-item-5, .services-item-6").once().wrapAll('<div class="grid-item services-col"></div>');
 	
 	$(".services-col:nth-child(1)").addClass("services-col-1");	
 	$(".services-col:nth-child(2)").addClass("services-col-2");	
@@ -91,10 +91,10 @@
         }
     })
 
-	window.onscroll = function() {myFunction()};
+	window.onscroll = function() {stickyHeader()};
     var header = document.getElementById("header");
     var sticky = header.offsetTop;
-    function myFunction() {
+    function stickyHeader() {
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
         } else {
