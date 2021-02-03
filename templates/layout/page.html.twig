@@ -44,27 +44,27 @@
  */
 #}
 
-<div id="page-overlay">
-  <div id="preloader"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-2 -2 54 64" xml:space="preserve">
+<div class="page-overlay">
+  <div class="preloader"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-2 -2 54 64" xml:space="preserve">
 <path d="M22.034,3.289c-2.497-0.426-4.859-1.25-6.97-1.982 c-2.513-0.874-4.659-1.622-6.168-1.391c-2.936,0.45-5.095,2.065-6.534,4.608c-1.544,2.728-2.276,6.529-2.277,11.114 c0.654,5.896,2.219,11.933,4.364,17.845c2.471,6.816,5.716,13.479,9.222,19.586l0,0l0.205,0.361 c0.818,1.451,2.765,4.908,4.552,6.084c0.774,0.51,1.517,0.545,2.094-0.344c0.25-0.387,0.234-1.33,0.223-1.977v-0.002l-0.003-0.334 v-0.002l-0.004-0.566c-0.021-2.367-0.072-8.607,1.27-13.006c0.395-1.293,0.993-2.4,1.674-3.059c0.289-0.283,0.603-0.492,0.923-0.604 c0.352-0.127,0.609-0.127,0.959,0c0.322,0.111,0.633,0.32,0.922,0.604c0.682,0.658,1.283,1.766,1.676,3.059 c1.342,4.398,1.291,10.639,1.271,13.006l-0.004,0.566v0.002l-0.004,0.334v0.002c-0.012,0.646-0.031,1.59,0.221,1.977 c0.576,0.889,1.322,0.854,2.092,0.344c1.791-1.176,3.734-4.633,4.555-6.084l0.203-0.361h0.002c3.506-6.107,6.752-12.77,9.223-19.586 c2.146-5.912,3.711-11.949,4.365-17.845c-0.002-4.584-0.734-8.386-2.281-11.114c-1.439-2.543-3.596-4.159-6.531-4.608 c-1.508-0.231-3.656,0.517-6.17,1.391c-2.107,0.733-4.471,1.557-6.967,1.982C26.207,3.617,23.961,3.617,22.034,3.289z"/>
 </svg></div>  
 </div>
 
-<header id="header">
+<header class="header">
   <div class="container">
     {{ page.header }}
   </div>
 </header>
 
 {% if page.slider %}
-  <div id="slider">
+  <div class="slider">
     {{ page.slider }}
     {{ page.slider_overlay }}
   </div>
 {% endif %}
 
 {% if page.featured %}
-  <div id="featured">
+  <div class="featured">
     <div class="container">
       {{ page.featured }}
     </div>
@@ -72,33 +72,33 @@
 {% endif %}
 
 {% if page.highlighted %}
-  <div id="highlighted">
+  <div class="highlighted">
     <div class="container">
       {{ page.highlighted }}
     </div>
   </div>
 {% endif %}
 
-<main id="main">
+<main class="main">
 
   <div class="container">
 
     {{ page.page_title }}
 
-    <div id="content-wrapper">
+    <div class="content-wrapper">
 
       {% if page.sidebar_first %}
-        <div id="sidebar-first" class="sidebar">
+        <div class="sidebar-first sidebar">
           {{ page.sidebar_first }}
         </div>
       {% endif %}
 
-      <div id="content">
-        {{ page.content }}
+      <div class="content">
+        {{ page.content_main }}
       </div>
 
       {% if page.sidebar_second %}
-        <div id="sidebar-second" class="sidebar">
+        <div class="sidebar-second sidebar">
           {{ page.sidebar_second }}
         </div>
       {% endif %} 
@@ -108,7 +108,7 @@
   </main>
 
   {% if page.content_bottom %}  
-    <div id="content-bottom">
+    <div class="content-bottom">
       <div class="container">
         {{ page.content_bottom }}
       </div>
@@ -117,10 +117,10 @@
 
 </div>
 
-<footer id="footer">
+<footer class="footer">
 
   {% if page.footer_first %}  
-    <div id="footer-first">
+    <div class="footer-first">
       <div class="container">
         {{ page.footer_first }}
       </div>
@@ -128,14 +128,14 @@
   {% endif %}
   
   {% if page.footer_second %}
-    <div id="footer-second">
+    <div class="footer-second">
       <div class="container">
         {{ page.footer_second }}
       </div>
     </div>
   {% endif %}
   
-  <div id="footer-third">
+  <div class="footer-third">
     <div class="container">
       {{ page.footer_third }}
     </div>
@@ -143,12 +143,12 @@
 
 </footer>
 
-<div id="mobile-panel">
+<div class="mobile-panel">
   {{ page.mobile_panel }}
 </div>  
 
-<div id="popup">
-  <div id="popup-overlay"></div>
+<div class="popup">
+  <div class="popup-overlay"></div>
   {{ page.popup }}
 </div>
 

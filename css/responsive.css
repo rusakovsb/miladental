@@ -172,6 +172,7 @@ body {
 
 @media all and (max-width: 767px) {
 
+#page-overlay,
 #block-slider-caption,
 .view-carousel .doctor__position,
 #block-map-image {

@@ -74,7 +74,7 @@ a:hover,
 
 #header.sticky #menu-icon span,
 #menu-close-icon span {
-	background: #000;
+	background: #333333;
 }
 
 #header .menu--main a:after {
@@ -147,7 +147,7 @@ input.form-email:focus {
 .services-button rect {
 	fill: none;
 	stroke: #67b534;
-	stroke-width: 3px;
+	stroke-width: 2px;
 }
 
 .services-button:hover path,
@@ -166,7 +166,7 @@ label.form-required:after {
 }
 
 .message {
-	border: 3px solid #67b534;
+	border: 2px solid #67b534;
 }
 
 .banner__overlay {
@@ -184,7 +184,7 @@ label.form-required:after {
 
 ul.tabs {
 	background: #efefef;
-    border-bottom: 3px solid #67b534;	
+    border-bottom: 2px solid #67b534;	
 }
 
 #menu-icon span {
