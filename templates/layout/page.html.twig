@@ -1,0 +1,159 @@
+{#
+/**
+ * @file
+ * Theme override to display a single page.
+ *
+ * The doctype, html, head and body tags are not in this template. Instead they
+ * can be found in the html.html.twig template normally located in the
+ * core/modules/system directory.
+ *
+ * Available variables:
+ *
+ * General utility variables:
+ * - base_path: The base URL path of the Drupal installation. Will usually be
+ *   "/" unless you have installed Drupal in a sub-directory.
+ * - is_front: A flag indicating if the current page is the front page.
+ * - logged_in: A flag indicating if the user is registered and signed in.
+ * - is_admin: A flag indicating if the user has permission to access
+ *   administration pages.
+ *
+ * Site identity:
+ * - front_page: The URL of the front page. Use this instead of base_path when
+ *   linking to the front page. This includes the language domain or prefix.
+ *
+ * Page content (in order of occurrence in the default page.html.twig):
+ * - node: Fully loaded node, if there is an automatically-loaded node
+ *   associated with the page and the node ID is the second argument in the
+ *   page's path (e.g. node/12345 and node/12345/revisions, but not
+ *   comment/reply/12345).
+ *
+ * Regions:
+ * - page.header: Items for the header region.
+ * - page.primary_menu: Items for the primary menu region.
+ * - page.secondary_menu: Items for the secondary menu region.
+ * - page.slider: Items for the slider region.
+ * - page.content: The main content of the current page.
+ * - page.sidebar_first: Items for the first sidebar.
+ * - page.sidebar_second: Items for the second sidebar.
+ * - page.bottom: Items for bottom.
+ * - page.footer: Items for footer.
+ * - page.breadcrumb: Items for the breadcrumb region.
+ *
+ * @see template_preprocess_page()
+ * @see html.html.twig
+ */
+#}
+
+<div class="loading-overlay">
+  <div class="loading"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-2 -2 54 64" xml:space="preserve">
+<path d="M22.034,3.289c-2.497-0.426-4.859-1.25-6.97-1.982 c-2.513-0.874-4.659-1.622-6.168-1.391c-2.936,0.45-5.095,2.065-6.534,4.608c-1.544,2.728-2.276,6.529-2.277,11.114 c0.654,5.896,2.219,11.933,4.364,17.845c2.471,6.816,5.716,13.479,9.222,19.586l0,0l0.205,0.361 c0.818,1.451,2.765,4.908,4.552,6.084c0.774,0.51,1.517,0.545,2.094-0.344c0.25-0.387,0.234-1.33,0.223-1.977v-0.002l-0.003-0.334 v-0.002l-0.004-0.566c-0.021-2.367-0.072-8.607,1.27-13.006c0.395-1.293,0.993-2.4,1.674-3.059c0.289-0.283,0.603-0.492,0.923-0.604 c0.352-0.127,0.609-0.127,0.959,0c0.322,0.111,0.633,0.32,0.922,0.604c0.682,0.658,1.283,1.766,1.676,3.059 c1.342,4.398,1.291,10.639,1.271,13.006l-0.004,0.566v0.002l-0.004,0.334v0.002c-0.012,0.646-0.031,1.59,0.221,1.977 c0.576,0.889,1.322,0.854,2.092,0.344c1.791-1.176,3.734-4.633,4.555-6.084l0.203-0.361h0.002c3.506-6.107,6.752-12.77,9.223-19.586 c2.146-5.912,3.711-11.949,4.365-17.845c-0.002-4.584-0.734-8.386-2.281-11.114c-1.439-2.543-3.596-4.159-6.531-4.608 c-1.508-0.231-3.656,0.517-6.17,1.391c-2.107,0.733-4.471,1.557-6.967,1.982C26.207,3.617,23.961,3.617,22.034,3.289z"/>
+</svg></div>  
+</div>
+
+<header class="header">
+  <div class="container">
+    {{ page.header }}
+  </div>
+</header>
+
+{% if page.slider %}
+  <div class="slider">
+    {{ page.slider }}
+    {{ page.slider_overlay }}
+  </div>
+{% endif %}
+
+{% if page.featured %}
+  <div class="featured">
+    <div class="container">
+      {{ page.featured }}
+    </div>
+  </div>
+{% endif %}
+
+{% if page.highlighted %}
+  <div class="highlighted">
+    <div class="container">
+      {{ page.highlighted }}
+    </div>
+  </div>
+{% endif %}
+
+<main class="main">
+
+  <div class="container">
+
+    {{ page.page_title }}
+
+    <div class="content-wrapper">
+
+      {% if page.sidebar_first %}
+        <div class="sidebar-first sidebar">
+          {{ page.sidebar_first }}
+        </div>
+      {% endif %}
+
+      <div class="content">
+        {{ page.content }}
+      </div>
+
+      {% if page.sidebar_second %}
+        <div class="sidebar-second sidebar">
+          {{ page.sidebar_second }}
+        </div>
+      {% endif %} 
+
+    </div>
+
+  </div>
+
+</main>
+
+{% if page.content_bottom %}  
+  <div class="content-bottom">
+    <div class="container">
+      {{ page.content_bottom }}
+    </div>
+  </div>
+{% endif %}
+
+<footer class="footer">
+
+  {% if page.footer_first %}  
+    <div class="footer-first">
+      <div class="container">
+        {{ page.footer_first }}
+      </div>
+    </div>
+  {% endif %}
+  
+  {% if page.footer_second %}
+    <div class="footer-second">
+      <div class="container">
+        {{ page.footer_second }}
+      </div>
+    </div>
+  {% endif %}
+  
+  <div class="footer-third">
+    <div class="container">
+      {{ page.footer_third }}
+    </div>
+  </div>
+
+</footer>
+
+<div class="overlay"></div>
+
+<div class="mobile-panel">
+  {{ page.mobile_panel }}
+</div>  
+
+<div class="popup">
+  <div class="popup-overlay"></div>
+  {{ page.popup }}
+</div>
+
+
+
+

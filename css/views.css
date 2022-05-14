@@ -1,0 +1,683 @@
+/*-------------------------------------------*
+/* Promo
+/*-------------------------------------------*/
+
+.promo {
+	display: flex;
+    flex-wrap: wrap;
+	margin: 0 0 6rem 0;
+	padding: 0 0 3rem 0;
+}
+
+.promo__image,
+.promo__text {
+    flex: 0 0 auto; 
+    width: 50%;
+	position: relative;
+}
+
+.promo__image {
+	padding-top: 25%;
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.promo__text {
+	padding: 6rem 3rem 0 0;
+}
+
+.promo__text-inner {   
+    position: relative;    
+}
+
+.promo__text::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	bottom: -3rem;
+	left: -3rem;
+	background: #ededed;
+}
+
+.promo__title {
+    margin: 0 0 2rem 0;
+    font-size: 2.75rem;
+	line-height: 1;
+	font-weight: 600;
+}
+
+.promo__body {
+	line-height: 1.5;
+}
+
+.promo__body p {
+    margin: 0 0 1rem 0;
+}
+
+.promo__body p:last-child {
+    margin: 0;
+}
+
+.promo__body ul {
+    margin: 0 0 1rem 0;
+	padding: 0;
+}
+
+.promo__body ul li {
+    position: relative;
+    padding: 0 0 0 2.5rem;
+}
+
+.promo__body ul li::before {
+    content: "";
+    display: block;  
+    position: absolute;  
+	top: 0.75em;
+    left: 0;
+    width: 1.5rem;
+	height: 0.125rem;
+	background: #2faf39;
+}
+
+/*-------------------------------------------*
+/* About
+/*-------------------------------------------*/
+
+.about {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.about__title,
+.about__body {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.about__title {
+	margin: 0;
+	padding: 0 3rem 0 0;
+    font-size: 3rem;  
+	line-height: 1.3;
+	font-weight: 600;
+}
+
+.about__body {
+	line-height: 1.5;
+}
+
+.about__body p {
+	margin: 0 0 2rem 0;
+}
+
+.about__body p:last-child {
+    margin: 0;
+}
+
+/*-------------------------------------------*
+/* Service Buttons
+/*-------------------------------------------*/
+
+.service-button {
+    display: flex;
+	align-items: flex-start;
+    padding: 3rem;
+	background: #fff;
+}
+
+.service-button:hover {
+    background: #2faf39;
+	color: #fff;
+}
+
+.service-button__icon {
+	flex: 0 0 auto;
+	width: 3.125rem;
+}
+
+.service-button path,
+.service-button polygon,
+.service-button line,
+.service-button polyline,
+.service-button circle,
+.service-button rect {
+	transition: 0.2s linear;
+	fill: none;
+	stroke: #2faf39;
+	stroke-width: 0.125rem;
+}
+
+.service-button:hover path,
+.service-button:hover polygon,
+.service-button:hover line,
+.service-button:hover polyline,
+.service-button:hover circle,
+.service-button:hover rect {
+    stroke: #fff;
+}
+
+.service-button__text {
+    flex: 1 1 auto;	
+	padding: 0 0 0 1.5rem;
+}
+
+.service-button__name {
+    margin: 0 0 0.75rem 0;
+    font-size: 2rem;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.service-button__description {
+	opacity: 0.7;
+}
+
+/*-------------------------------------------*
+/* Service Banners
+/*-------------------------------------------*/
+
+.service-banners {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+.service-banners__col {
+    flex: 0 0 auto;
+	width: 33.333%;
+	padding: 0 1rem;
+}
+
+.service-banner-1 .service-banner__image,
+.service-banner-4 .service-banner__image,
+.service-banner-5 .service-banner__image {
+    padding-top: 100%;
+}
+
+.service-banner-2 .service-banner__image,
+.service-banner-3 .service-banner__image,
+.service-banner-6 .service-banner__image {
+    padding-top: 70%;
+}
+
+.service-banner__image {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.service-banner__text {
+	margin: -3.5rem 2rem 0 2rem;
+    padding: 2rem 0.5rem;    	
+	position: relative;
+	text-align: center;
+	background: #fff;
+}
+
+.service-banner__name {
+	margin: 0 0 0.75rem 0;
+    font-size: 2rem;
+	line-height: 1;
+	font-weight: 600;
+}
+
+.service-banner__description {	
+	line-height: 1.3;
+	opacity: 0.7;
+}
+
+/*-------------------------------------------*
+/* Service List
+/*-------------------------------------------*/
+
+.service-list-item__text {
+	margin: -2.75rem 2rem 0 2rem;
+    padding: 1.5rem 1rem;    
+	position: relative;
+	text-align: center;
+	background: #fff;
+}
+
+.service-list-item__name {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.5rem;
+	line-height: 1;
+	font-weight: 600;
+}
+
+.service-list-item__description {	
+	line-height: 1.3;
+	opacity: 0.7;
+}
+
+/*-------------------------------------------*
+/* Banner
+/*-------------------------------------------*/
+
+.banner {
+    position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.banner__overlay {
+    padding: 6rem 3rem;
+    text-align: center;
+	background: rgba(36,36,36,0.85);
+	color: #fff;
+}
+
+.banner__title {
+    margin: 0 0 2rem 0;
+    font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.banner__body p {
+	font-size: 1.375rem;
+	line-height: 1.5;
+}
+
+.banner__body p span {
+    display: block;
+}
+
+/*-------------------------------------------*
+/* Message
+/*-------------------------------------------*/
+
+.message {
+	padding: 3rem;
+	text-align: center;
+}
+
+.message__title {
+	margin: 0 0 1.5rem 0;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.message__body {
+	line-height: 1.5;
+}
+
+.message p {
+	margin: 0 0 1rem 0;
+}
+
+.message p:last-child {
+	margin: 0;
+}
+
+.message ul {
+	margin: 0 0 1rem 0;
+}
+
+/*-------------------------------------------*
+/* Doctor Slider
+/*-------------------------------------------*/
+
+.doctor-slide__text {
+	position: relative;
+	margin: -2.5rem 1.5rem 0 1.5rem;
+	padding: 1.25rem 1rem;	
+	line-height: 1.3;
+	text-align: center;
+	background: #fff;
+}
+
+.doctor-slide__name {
+	font-size: 1.25rem;
+    margin: 0 0 0.75rem 0;
+	line-height: 1.3;
+	font-weight: 600;
+}
+
+.doctor-slide__position {
+	font-size: 1rem;
+	color: #2faf39;
+}
+
+.doctor-slider__nav {
+	display: flex;
+	justify-content: center;	
+    margin: 2rem 0 0 0;
+}
+
+.doctor-slider__button-prev, 
+.doctor-slider__button-next {
+    margin: 0 0.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	transition: 0.2s linear;
+	cursor: pointer;
+	background-color: #2faf39;
+	background-position: 50% 50%;
+	background-size: 1.5rem auto;
+	background-repeat: no-repeat;
+}
+
+.doctor-slider__button-prev {
+	background-image: url(../images/prev.svg);
+}
+
+.doctor-slider__button-next {
+	background-image: url(../images/next.svg);
+}
+
+.doctor-slider__button-prev:hover, 
+.doctor-slider__button-next:hover {
+	background-color: #32c33d;
+}
+
+/*-------------------------------------------*
+/* Team
+/*-------------------------------------------*/
+
+.team-member__text {
+	position: relative;
+	margin: -2.5rem 1.5rem 0 1.5rem;
+	padding: 1.25rem 1rem;	
+	line-height: 1.3;
+	text-align: center;
+	background: #fff;
+}
+
+.team-member__name {
+	font-size: 1.5rem;
+    margin: 0 0 0.75rem 0;
+	line-height: 1.3;
+	font-weight: 600;
+}
+
+.team-member__position {
+	font-size: 1rem;
+	color: #2faf39;
+}
+
+/*-------------------------------------------*
+/* Appointment
+/*-------------------------------------------*/
+
+.doctor {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 3rem 0;
+}
+
+.doctor > * {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.doctor__content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.doctor__photo {
+	flex: 0 0 auto;
+	width: 30%;	
+}
+
+.doctor__text {
+	flex: 0 0 auto;
+	width: 70%;
+	padding: 0 3rem;
+}
+
+.doctor__speciality {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+	color: #2faf39;
+}
+
+.doctor__name {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.doctor__id {
+	display: none;
+}
+
+.time-picker__title {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+	text-align: center;
+}
+
+.time-picker-slider__prev,
+.time-picker-slider__next {
+	position: absolute;	
+	z-index: 10;
+	top: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	transition: 0.2s linear;
+	cursor: pointer;
+	background-color: #2faf39;
+	background-position: 50% 50%;
+	background-size: 1rem auto;
+	background-repeat: no-repeat;
+}
+
+.time-picker-slider__prev {
+	left: 0.5rem;
+	margin: 0 0.5rem 0 0;
+	background-image: url(../images/prev.svg);
+}
+
+.time-picker-slider__next {
+	right: 0.5rem;
+	background-image: url(../images/next.svg);
+}
+
+.time-picker-slider__prev:hover, 
+.time-picker-slider__next:hover {
+	background-color: #32c33d;
+}
+
+.swiper-button-disabled {
+    visibility: hidden;
+}
+
+.time-picker-day {
+	display: block;
+	width: 100%;
+	margin: 0 0 1rem 0;
+	padding: 0.5rem 2rem;
+	text-align: center;
+	font-family: 'ProximaNova';
+	background: transparent;
+	border: 0.125rem #ededed solid;
+	transition: 0.2s linear;
+}
+
+.time-picker-day:hover {
+	background: #ededed;	
+}
+
+.time-picker-day--active {
+	background: #2faf39 !important;
+	color: #fff;
+	border: 0.125rem #2faf39 solid !important;
+}
+
+.time-picker-day__name {
+	display: block;
+	margin: 0 0 0.25rem 0;
+	font-size: 1rem;
+    font-weight: 400;
+}
+
+.time-picker-day__date {
+	display: block;
+	font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.time-slot-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -0.125rem -0.125rem 0 -0.125rem;
+}
+
+.time-slot-list__item {
+	display: block;
+	width: 33.333333%;
+	padding: 0.5rem 0;
+	font-family: 'ProximaNova';
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	background: #ededed;
+	border: 0.125rem #fff solid;
+	transition: 0.2s linear;
+}
+
+.time-slot-list__item:hover {
+	background: #dfdfdf;
+}
+
+.time-slot-list__item--active {
+	background: #2faf39 !important;
+	color: #fff;
+}
+
+.view-appointment__empty {
+	text-align: center;
+}
+
+/*-------------------------------------------*
+/* Service Accordion
+/*-------------------------------------------*/
+
+.accordion-item {
+	margin: 0 0 1rem 0;
+    border: 0.063 solid #f2f2f2;
+}
+
+.accordion-item:last-child {
+	margin: 0;
+}
+
+.accordion-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+	cursor: pointer;
+	background:rgba(0,0,0,0.05);
+}
+
+.accordion-item__icon {
+	position: relative;
+	display: block;
+	min-width: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	opacity: 0.5;
+	transform: rotate(0deg);
+	transition: 0.2s linear;
+}
+
+.accordion-item__icon span {
+    position: absolute;
+	background: #333;
+}
+
+.accordion-item__icon span:nth-child(1) {
+	width: 100%;
+	height: 0.125rem;
+	top: 0.688rem;
+    left: 0;
+}
+
+.accordion-item__icon span:nth-child(2) {
+	width: 0.125rem;
+	height: 100%;
+	top: 0;
+    left: 0.688rem;
+}
+
+.accordion-item--expanded .accordion-item__icon {
+    transform: rotate(45deg);
+}
+
+.accordion-item__title {
+	margin: 0;
+	padding: 0 0.75rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.accordion-item__body {
+    display: none;
+    padding: 1.5rem;
+    line-height: 1.5;
+	border: 0.125rem solid rgba(0,0,0,0.05);
+}
+
+/*-------------------------------------------*
+/* Prices
+/*-------------------------------------------*/
+
+.view-prices {
+	max-width: 990px;
+	margin: 0 auto;
+    padding: 0 0 3rem 0;
+}
+
+.prices {
+	margin: 0 0 3rem 0;
+}
+
+.prices__title {
+	margin: 0 0 1.5rem 0;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 1;
+	font-weight: 600;
+}
+
+/*-------------------------------------------*
+/* Certificates
+/*-------------------------------------------*/
+
+.view-certificates-block__footer{
+	margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+/*-------------------------------------------*
+/* Photoswipe
+/*-------------------------------------------*/
+
+.pswp__bg {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

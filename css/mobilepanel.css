@@ -1,0 +1,146 @@
+/*-------------------------------------------*
+/* Menu Icon
+/*-------------------------------------------*/
+
+.menu-icon {
+	display: none;
+	position: relative;
+	width: 1.5rem;
+	height: 1.188rem;
+	border: none;
+	background: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.menu-icon span {
+	width: 100%;
+	height: 0.188rem;
+	position: absolute;
+	left: 0; 
+	transition: 0.2s linear;
+	background: #fff;
+}
+
+.header--sticky .menu-icon span {
+	background: #333;
+}
+
+.menu-icon span:nth-child(1) {
+    top: 0;
+}
+
+.menu-icon span:nth-child(2) {
+    top: 0.5rem;
+}
+
+.menu-icon span:nth-child(3) {
+    bottom: 0;
+}
+
+.menu-close-icon {
+	display: block;
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border: none;
+	background: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.menu-close-icon span {
+	width: 1.5rem;
+	height: 0.188rem;
+	position: absolute;
+	left: 0; 
+	top: 50%;
+	background: #333;
+}
+
+.menu-close-icon span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.menu-close-icon span:nth-child(2) { 
+    transform: rotate(45deg);
+}
+
+/*-------------------------------------------*
+/* Mobile Panel 
+/*-------------------------------------------*/
+
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.mobile-panel {
+    position: fixed;
+	z-index: 100;
+    top: 0;
+    right: 0;
+	height: 100%;
+	padding: 4.5rem 1.5rem 0 1.5rem;
+	background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: translate3d(100%, 0, 0); 
+    will-change: transform; 
+}
+
+.mobile-panel .block {
+    margin: 0 0 1.5rem 0;
+}
+
+.mobile-panel .block-title {
+    font-size: 1.25rem;
+	margin: 0 0 0.5rem 0;
+}
+
+/*-------------------------------------------*
+/* Responsive Styles
+/*-------------------------------------------*/
+
+@media all and (min-width: 1200px) {
+    .mobile-panel {
+	    width: 25%;
+    }
+}
+
+@media all and (max-width: 1199px) {  
+    .menu-icon {
+	    display: block;
+    }
+ 
+    .mobile-panel {
+        width: 33%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .mobile-panel {
+	    width: 50%;
+    }
+}
+
+@media all and (max-width: 767px) {	
+    .mobile-panel {
+	    width: 85%;
+    }
+}
+
+
+
+
+
+
+
+
+

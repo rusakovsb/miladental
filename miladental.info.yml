@@ -1,0 +1,25 @@
+name: Miladental
+type: theme
+description: 'Miladental theme'
+core_version_requirement: ^8 || ^9
+base theme: false
+
+libraries:
+  - miladental/global-styling
+
+regions:
+  header: 'Header'
+  slider: 'Slider'
+  slider_overlay: 'Slider Overlay'
+  featured: 'Featured'
+  highlighted: 'Highlighted'
+  page_title: 'Page Title' 
+  sidebar_first: 'Sidebar First'
+  content: 'Content'  
+  sidebar_second: 'Sidebar Second'
+  content_bottom: 'Content Bottom' 
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  mobile_panel: 'Mobile Panel'
+  popup: 'Popup'

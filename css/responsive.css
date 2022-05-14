@@ -1,0 +1,398 @@
+/*-------------------------------------------*
+/* < 1400px
+/*-------------------------------------------*/
+
+@media all and (max-width: 1400px) {
+
+    .header {
+        padding: 1rem 0;
+    }
+    
+    .site-name {
+        margin: 0 0 1.5rem 0;
+    }
+    
+    .path-frontpage #site-name,
+    .site-name {
+        font-size: 2rem;
+    }
+    
+    .button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .path-frontpage .site-name {
+        font-size: 2.5rem;
+    }
+    
+    .page-title,
+    .about__title {
+        font-size: 2rem;   
+    }
+    
+    .node__content h2,
+    .block-title,
+    .promo__title,
+    .message__title,
+    .prices__title,
+    .banner__title {
+        font-size: 1.75rem;
+    }
+    
+    .node__content h3,
+    .service-banner__name,
+    .service-button__name {
+        font-size: 1.5rem;
+    }
+    
+    .node__content h4,
+    .service-list-item__name,
+    .doctor__name,
+    .team-member__name {
+        font-size: 1.25rem;
+    }
+    
+    .node__content h5,
+    .node__content h6 {
+        font-size: 1rem;
+    }
+
+}
+
+/*-------------------------------------------*
+/* < 1200px
+/*-------------------------------------------*/
+
+@media all and (max-width: 1199px) {
+
+    body {    
+        font-size: 1rem;
+    }
+    
+    .sidebar-first {
+        padding: 0 3rem 0 0;
+    }
+    
+    .sidebar-second {
+        padding: 0 0 0 3rem;
+    }
+    
+    .highlighted {
+        margin: 3rem 0 0 0;
+    }
+    
+    .main {
+        margin: 3rem 0;  
+    }
+    
+    .promo,
+    .sidebar .block,
+    .content-bottom .block {
+        margin: 0 0 3rem 0;
+    }
+    
+    .footer-first,
+    .footer-second {
+        padding: 3rem 0;
+    }
+    
+    .footer-third {
+        padding: 1.5rem 0;
+    }
+    
+    .main-menu,
+    #block-phones {
+        display: none;
+    }
+        
+    .logo {
+        width: 10rem; 
+    }
+    
+    .phone__icons {
+        width: auto;
+    }
+
+    .phone__link {
+        color: #333;
+    }
+    
+    .path-frontpage .site-name,
+    .site-name {
+        font-size: 1.5rem;
+    }
+    
+    .site-name {
+        margin: 0 0 1rem 0;
+    }
+    
+    .region-featured {
+        margin-top: -1.5rem;
+    }
+    
+    .block-title {
+        margin: 0 0 1.5rem 0;
+    }
+    
+    .promo__text {
+        padding: 3rem 1.5rem 0 0;
+    }
+    
+    .promo__text::before {
+        top: 1.5rem;
+        bottom: -1.5rem;
+        left: -1.5rem;
+    }
+    
+    .service-button,
+    .message {    
+        padding: 1.5rem;
+    }
+    
+    .service-button__text {
+        padding: 0 0 0 1rem;
+    }
+    
+    .service-button__description,
+    .service-banner__description,
+    .service-list-item__description,
+    .banner__body p {
+        font-size: 1rem;
+    }
+
+}
+
+/*-------------------------------------------*
+/* < 992
+/*-------------------------------------------*/
+
+@media all and (max-width: 991px) {
+
+    .service-banners__col {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+    
+    .service-banner {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 0 0.5rem;
+    }
+    
+    .service-banner-2 .service-banner__image,
+    .service-banner-3 .service-banner__image,
+    .service-banner-6 .service-banner__image {
+        padding-top: 100%;
+    }
+
+    .doctor > * {
+        width: 100%;
+    }
+
+    .doctor__content {
+        margin: 0 0 1.5rem 0;
+    }
+
+}
+
+/*-------------------------------------------*
+/* < 768
+/*-------------------------------------------*/
+
+@media all and (max-width: 767px) {
+
+    .page-overlay,
+    .region-slider-overlay .block {
+        display: none;
+    }
+
+    .header.sticky {
+        padding: 0.75rem 0;
+    }
+
+    .logo {
+        width: 7rem; 
+    }
+
+    .region-featured {
+        margin-top: -1.5rem;
+    }
+
+    .layout-one-sidebar .content,
+    .layout-two-sidebars .content,
+    .sidebar,
+    .promo__image,
+    .promo__text,
+    .about__title,
+    .about__body,
+    .service-banner,
+    .doctor__text {
+        width: 100%;     
+    }
+
+    .promo__image {
+        padding-top: 50%;
+    }
+
+    .sidebar-first {
+        padding: 0 0 3rem 0;
+    }
+
+    .sidebar-second {
+        padding: 3rem 0 0 0;
+    }
+
+    .region-footer-third {
+        flex-direction: column;
+    }
+
+    .page-title,
+    .about__title {
+	    font-size: 1.75rem;
+    }
+
+    .node__content h2,
+    .block-title,
+    .promo__title,
+    .prices__title,
+    .banner__title {
+	    font-size: 1.5rem;
+    }
+
+    .node__content h3, 
+    .service-button__name,
+    .service-banner__name,     
+    .accordion-item__title {
+        font-size: 1.25rem;
+    }
+
+    .page-title,
+    .node__content h2,
+    .block-title,
+    .promo__title,
+    .about__title,
+    .about__body p,
+    .service-banner,
+    .prices__title,
+    .banner__title,
+    .message__title,
+    .node__content ul,
+    .node__content p,
+    .footer-third .block,
+    .copyright,
+    .footer-address,
+    .doctor__photo {
+        margin: 0 0 1rem 0;
+    }
+
+    .node__content ul {
+        margin: 0 0 1rem 1rem;
+    }
+
+    .promo__body ul li,
+    .node__content ul li {
+        padding: 0 0 0 1.75rem;
+    }
+
+    .promo__body ul li::before,
+    .node__content ul li::before {
+        width: 1rem;
+    }
+
+    .service-button,
+    .message,
+    .promo__text {    
+        padding: 1rem;
+    }
+
+    .service-button__icon {
+	    width: 2.25rem;
+    }
+
+    .doctor__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .doctor__photo {
+        width: 50%;
+    }
+
+    .promo,
+    .about__title,
+    .doctor__text {
+        padding: 0;
+    }
+
+    .promo__text::before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .service-banner__text,
+    .doctor-slide__text,
+    .service-list-item__text {
+        margin: -2rem 1rem 0 1rem;
+        padding: 1rem;    
+    }
+
+    .content-bottom .block-title span::before, 
+    .content-bottom .block-title span::after,
+    .footer .block-title span::before, 
+    .footer .block-title span::after {
+        width: 1.5rem;
+    }
+
+    .content-bottom .block-title span::before,
+    .footer .block-title span::before {
+        left: -2.5rem;
+    }
+
+    .content-bottom .block-title span::after,
+    .footer .block-title span::after {
+        right: -2.5rem;
+    }
+
+    .doctor-slider__nav {
+        margin: 1rem 0 0 0;
+    }
+
+    .footer-third .block:last-child {
+        margin: 0;
+    }
+
+    .field--name-field-doctor-position {
+        font-size: 1rem;
+    }
+
+    .banner__overlay {
+        padding: 3rem 1.5rem;
+    }
+
+    .banner__body p span {
+        display: inline;
+    }
+
+    th, td {
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    .region-popup {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        max-width: none;
+        padding: 3rem 1.5rem 0 1.5rem;
+        transform: none;
+        overflow-y: auto;
+    }
+
+}
+
